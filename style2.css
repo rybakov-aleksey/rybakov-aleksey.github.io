@@ -26,8 +26,8 @@ a:hover,a:active {
 	overflow:hidden
 }
 .wrap {
-	max-width:1300px;
-	min-width:1300px;
+	max-width:100%;
+	min-width:10%;
 	margin:0 auto;
 	position:relative
 }
