@@ -81,14 +81,28 @@
 <!-- Линия для разделения блоков -->
 <hr class="hr-shelf">
 <style>
-.hr-shelf {
-	margin: -30px auto 10px;
-	padding: 0;
-	height: 50px;
-	border: none;
-	border-bottom: 1px solid #1f1209;
-	box-shadow: 0 20px 20px -20px #333;
-	width: 95%;
+hr,    
+hr:before,
+hr:after {
+    content: "";
+    background: #66d9ff;
+    display: block;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    position: absolute;
+    border: 0;
+    overflow: visible;
+}
+hr:before {
+    left: -32px;
+}
+hr:after {
+    left: 32px;
+}
+hr {
+    position: relative;
+    margin: 30px auto;
 }
 </style>
 <!-- Линия закончена -->
