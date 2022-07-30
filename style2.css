@@ -1224,8 +1224,9 @@ a:hover,a:active {
 /* Span last */
 .block-body div .span_last{
  display:inline-block;
- height:161px;
- padding-bottom:47px;
+ padding-bottom:5% !important;
+ width:auto !important;
+ height:100% !important;
 }
 
 /* Diplom */
@@ -1234,4 +1235,7 @@ a:hover,a:active {
  padding-bottom:18px;
  display:block;
  height: 100%;
+ width: 100%;
+ margin-right:auto !important;
+ margin-left:auto !important;
 }
