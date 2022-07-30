@@ -1219,3 +1219,19 @@ a:hover,a:active {
 	padding:0 20px;
 	margin:20px 0
 }
+
+
+/* Span last */
+.block-body div .span_last{
+ display:inline-block;
+ height:161px;
+ padding-bottom:47px;
+}
+
+/* Diplom */
+.block-body .diplom{
+ padding-top:30px;
+ padding-bottom:18px;
+ display:block;
+ height: 100%;
+}
